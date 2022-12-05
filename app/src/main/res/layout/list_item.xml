@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+    >
+
+    <ImageView
+        android:id="@+id/listiconimages"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:background="#fff7DA"
+        />
+<LinearLayout
+    android:id="@+id/text_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    >
+
+
+    <TextView
+        android:id="@+id/english"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="bottom"
+        android:layout_weight="1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+      />
+
+    <TextView
+        android:id="@+id/marathi"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:textSize="18sp"
+        style="bold"/>
+
+</LinearLayout>>
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/playarrow"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/baseline_play_arrow_white_36"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="18dp"/>
+
+</RelativeLayout>
